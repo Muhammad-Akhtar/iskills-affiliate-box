@@ -1,0 +1,126 @@
+.default-theme-1 .pros_corn {
+  display: flex;
+}
+
+.default-theme-1 .pros_corn .col-md-5 {
+  flex: 1;
+}
+.default-theme-1 .default-theme-1 {
+  font-family: "GothamBold";
+}
+.default-theme-1 .iskills-pros-cons-icons {
+  max-width: unset !important;
+}
+.default-theme-1 .card {
+  box-shadow: 1px 1px 4px grey;
+  border-radius: 0 !important;
+  -webkit-border-radius: 0 !important;
+  -moz-border-radius: 0 !important;
+  border-top-right-radius: 52px !important;
+  border-bottom-left-radius: 52px !important;
+  border: none !important;
+}
+
+.default-theme-1 .pros-header {
+  border-top-right-radius: 42px !important;
+  background-image: linear-gradient(to left, #006837, #39b54a) !important;
+  border-bottom: none !important;
+}
+
+.default-theme-1 .cons-header {
+  border-top-right-radius: 42px !important;
+  background-image: linear-gradient(to left, #ff0000, #ff0000) !important;
+  border-bottom: none !important;
+}
+
+.default-theme-1 .pros-heading {
+  font-size: 2em;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: white;
+  font-weight: bold;
+}
+
+.default-theme-1 .cons-heading {
+  font-size: 2em;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: white;
+  font-weight: bold;
+}
+
+.default-theme-1 .pros-triangle-css {
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-top: 10px solid #3aa148;
+  width: 0px;
+  height: 0px;
+  align-self: center;
+  background-image: linear-gradient(to left, #006837, #39b54a) !important;
+}
+
+.default-theme-1 .cons-triangle-css {
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-top: 10px solid #ff0000;
+  width: 0px;
+  height: 0px;
+  align-self: center;
+  background-image: linear-gradient(to left, #ff0000, #ff0000) !important;
+}
+
+.default-theme-1 .pros-lists {
+  margin-top: 25px;
+}
+
+.default-theme-1 .pros-lists ol {
+  list-style-type: none;
+  margin-bottom: 80px;
+}
+
+.default-theme-1 .pros-lists ul {
+  list-style-type: none;
+  margin-bottom: 80px !important;
+}
+
+.default-theme-1 .pros-lists ol > li {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-right: 15%;
+  background: #f5f5f5;
+}
+
+.default-theme-1 .pros-lists ul > li {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-right: 15%;
+  background: #f5f5f5;
+}
+
+.default-theme-1 .cons-lists {
+  margin-top: 25px;
+}
+
+.default-theme-1 .cons-lists ol {
+  list-style-type: none;
+  margin-bottom: 80px;
+}
+
+.default-theme-1 .cons-lists ul {
+  list-style-type: none;
+  margin-bottom: 80px !important;
+}
+
+.default-theme-1 .cons-lists ol > li {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-right: 15%;
+  background: #f5f5f5;
+}
+
+.default-theme-1 .cons-lists ul > li {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-right: 15%;
+  background: #f5f5f5;
+}

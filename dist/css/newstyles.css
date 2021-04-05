@@ -1,0 +1,1030 @@
+.default-theme-free {
+  font-family: "GothamBold";
+}
+
+.default-theme-free ol {
+  counter-reset: li; /* Initiate a counter */
+  margin-left: 2%; /* Remove the default left margin */
+  padding-left: 1%; /* Remove the default left padding */
+}
+.default-theme-free ol > li {
+  position: relative; /* Create a positioning context */
+  margin: 0 0 0px 2em; /* Give each list item a left margin to make room for the numbers */
+  padding: 5px; /* Add some spacing around the content */
+  list-style: none; /* Disable the normal item numbering */
+}
+
+.default-theme-free ul > li > i {
+  padding: 8px; /* Add some spacing around the content */
+}
+
+.default-theme-free ol > li:before {
+  content: counter(li); /* Use the counter as content */
+  counter-increment: li; /* Increment the counter by 1 */
+  /* Position and style the number */
+  position: absolute;
+  top: 7px;
+  left: -2em;
+  width: 28px;
+  font-size: medium;
+  vertical-align: middle;
+  /* Some space between the number and the content in browsers that support
+       generated content but not positioning it (Camino 2 is one example) */
+  margin-right: 8px;
+  padding: 1px;
+  /*border-top:2px solid #666;*/
+  color: black;
+  background: #ffffff;
+  border-radius: 30px;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+.default-theme-free li ol,
+li ul {
+  margin-top: 6px;
+}
+ol ol li:last-child {
+  margin-bottom: 0;
+}
+
+.default-theme-free .heading {
+  font-weight: bold;
+  color: #ffffff;
+  text-shadow: 1px 1px 2px #000000;
+}
+.default-theme-free .card-header,
+.pros-card {
+  border-radius: 0 !important;
+  -webkit-border-radius: 0 !important;
+  -moz-border-radius: 0 !important;
+}
+
+.card {
+  height: 100%;
+}
+
+.cons-card {
+  border-radius: 0 !important;
+  -webkit-border-radius: 0 !important;
+  -moz-border-radius: 0 !important;
+}
+
+.default-theme-free .pros-header {
+  background: #27ae60 !important;
+}
+
+.default-theme-free .cons-header {
+  background: #e74c3c !important;
+}
+
+.default-theme-free .pros-body {
+  background: #eaf7ef !important;
+}
+
+.cons-body {
+  background: #fdedec !important;
+}
+
+.default-theme-free .pros-lists ol > li:before {
+  border: 1px solid #27ae60;
+  color: #27ae60;
+}
+
+.default-theme-free .cons-lists ol > li:before {
+  border: 1px solid #e74c3c;
+  color: #e74c3c;
+}
+
+.default-theme-free .pros-lists ul > li {
+  padding: 5px !important;
+  list-style: outside none none !important;
+  position: relative;
+}
+
+.default-theme-free .pros-lists ul > li > i {
+  margin-top: -5px !important;
+  display: inline !important;
+  position: absolute;
+  margin-left: -28px !important;
+}
+
+/** CONS **/
+
+.default-theme-free .cons-lists ul > li {
+  padding: 5px !important;
+  list-style: outside none none !important;
+  position: relative;
+}
+.default-theme-free .cons-lists ul > li > i {
+  margin-top: -5px !important;
+  display: inline !important;
+  position: absolute;
+  margin-left: -28px !important;
+}
+
+.default-theme-free .cons-lists ul {
+  margin-bottom: 80px;
+}
+.default-theme-free .pros-lists ul {
+  margin-bottom: 80px;
+}
+
+/* custom theme 3 styles */
+.default-theme-2 .default-theme-2 {
+  font-family: "GothamBold";
+}
+
+.default-theme-2 .pros-card2 {
+  box-shadow: 1px 1px 4px grey !important;
+  border: none !important;
+  border-top-left-radius: 10px !important;
+  border-top-right-radius: 10px !important;
+  width: 290px !important;
+  height: 100% !important;
+}
+
+.default-theme-2 .cons-card2 {
+  box-shadow: 1px 1px 4px grey !important;
+  border: none !important;
+  border-top-left-radius: 10px !important;
+  border-top-right-radius: 10px !important;
+  width: 290px !important;
+  height: 100% !important;
+}
+
+.default-theme-2 .pros-header2 {
+  background-image: linear-gradient(to left, #39b54a, #39b54a) !important;
+  border-bottom: none !important;
+  border-top-left-radius: 10px !important;
+  border-top-right-radius: 10px !important;
+  width: 290px !important;
+  height: 100px !important;
+}
+
+.default-theme-2 .cons-header2 {
+  background-image: linear-gradient(to left, #ff0000, #ff0000) !important;
+  border-bottom: none !important;
+  border-top-left-radius: 10px !important;
+  border-top-right-radius: 10px !important;
+  width: 290px !important;
+  height: 100px !important;
+}
+
+.default-theme-2 .pros-heading2 {
+  font-size: 2em;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  margin-top: -22px;
+}
+
+.default-theme-2 .cons-heading2 {
+  font-size: 2em;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  margin-top: -22px;
+}
+
+.default-theme-2 .pros-circle-css2 {
+  position: absolute;
+  border-radius: 50px;
+  width: 70px;
+  height: 70px;
+  align-self: center;
+  margin-top: 70px;
+  background-color: #ffffff;
+}
+
+.default-theme-2 .cons-circle-css2 {
+  position: absolute;
+  border-radius: 50px;
+  width: 70px;
+  height: 70px;
+  align-self: center;
+  margin-top: 70px;
+  background-color: #ffffff;
+}
+
+.default-theme-2 .pros-icon2 {
+  position: absolute;
+  align-self: center;
+  margin-top: 70px;
+  color: #39b54a;
+  text-shadow: 2px 2px 6px #000000;
+  font-size: xx-large;
+}
+
+.default-theme-2 .cons-icon2 {
+  position: absolute;
+  align-self: center;
+  margin-top: 70px;
+  color: #ff0000;
+  text-shadow: 2px 2px 6px #000000;
+  font-size: xx-large;
+}
+
+.default-theme-2 .pros-lists2 {
+  margin-top: 50px !important;
+}
+
+.default-theme-2 .pros-lists2 ol {
+  list-style-type: none;
+  margin-bottom: 80px;
+}
+
+.default-theme-2 .pros-lists2 ul {
+  list-style-type: none;
+  margin-bottom: 80px;
+}
+
+.default-theme-2 .pros-lists2 ol > li {
+  margin-top: 3px;
+  margin-right: 7px;
+  padding-left: 1.3em;
+  list-style: outside none none !important;
+  position: relative;
+}
+
+.default-theme-2 .pros-lists2 ol > li:before {
+  content: "\f055"; /* FontAwesome Unicode */
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.6em;
+  width: 1.3em; /* same as padding-left set on li */
+  color: #39b54a;
+}
+
+.default-theme-2 .cons-lists2 {
+  margin-top: 50px !important;
+}
+
+.default-theme-2 .cons-lists2 ol {
+  list-style-type: none;
+  margin-bottom: 80px;
+}
+
+.default-theme-2 .cons-lists2 ul {
+  list-style-type: none;
+  margin-bottom: 80px;
+}
+
+.default-theme-2 .cons-lists2 ol > li {
+  margin-top: 3px;
+  margin-right: 7px;
+  padding-left: 1.3em;
+  list-style: outside none none !important;
+  position: relative;
+}
+
+.default-theme-2 .cons-lists2 ol > li:before {
+  content: "\f056"; /* FontAwesome Unicode */
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.6em;
+  width: 1.3em; /* same as padding-left set on li */
+  color: #ff0000;
+}
+
+.default-theme-2 .pros-lists2 ul > li {
+  margin-top: 5px;
+  margin-right: 7px;
+  padding-left: 15px;
+  list-style: outside none none !important;
+  position: relative;
+}
+
+.default-theme-2 .pros-lists2 ul > li > i {
+  display: inline !important;
+  position: absolute;
+  margin-left: -28px !important;
+}
+
+/** CONS **/
+
+.default-theme-2 .cons-lists2 ul > li {
+  margin-top: 5px;
+  margin-right: 7px;
+  padding-left: 15px;
+  list-style: outside none none !important;
+  position: relative;
+}
+.default-theme-2 .cons-lists2 ul > li > i {
+  display: inline !important;
+  position: absolute;
+  margin-left: -28px !important;
+}
+
+/* Theme 4 styling */
+.default-theme-3 {
+  font-family: "GothamBold";
+  width: 600px !important;
+}
+
+.default-theme-3 .pros-card3 {
+  border-radius: 0 !important;
+  -webkit-border-radius: 0 !important;
+  -moz-border-radius: 0 !important;
+  overflow: hidden;
+  width: 295px !important;
+  height: 100% !important;
+}
+
+.default-theme-3 .cons-card3 {
+  border-radius: 0 !important;
+  -webkit-border-radius: 0 !important;
+  -moz-border-radius: 0 !important;
+  overflow: hidden;
+  width: 295px !important;
+  height: 100% !important;
+}
+
+.default-theme-3 .pros-header3 {
+  background-image: linear-gradient(to left, #ffffff, #ffffff) !important;
+  border-radius: 0 !important;
+  -webkit-border-radius: 0 !important;
+  -moz-border-radius: 0 !important;
+  border: none !important;
+  height: 100px !important;
+}
+
+.default-theme-3 .pros-card3::before {
+  /* border-top: 5px solid #39b54a; */
+  content: ""; /* This is necessary for the pseudo element to work. */
+  display: block; /* This will put the pseudo element on its own line. */
+  margin: 0 140px; /* This will center the border. */
+  width: 49.57%; /* Change this to whatever width you want. */
+  margin-top: 9px; /* This creates some space between the element and the border. */
+  border-top: 4px solid #39b54a; /* This creates the border. Replace black with whatever color you want. */
+  overflow: hidden;
+}
+
+.default-theme-3 .pros-card3::after {
+  /* border-top: 5px solid #39b54a; */
+  content: ""; /* This is necessary for the pseudo element to work. */
+  display: block; /* This will put the pseudo element on its own line. */
+  margin: 0; /* This will center the border. */
+  width: 50%; /* Change this to whatever width you want. */
+  margin-bottom: 10px; /* This creates some space between the element and the border. */
+  margin-left: 9px;
+  border-bottom: 4px solid #39b54a; /* This creates the border. Replace black with whatever color you want. */
+}
+
+.default-theme-3 .pros-vl-left3 {
+  position: absolute;
+  top: 88px;
+  margin-left: 9px;
+  height: 100%;
+  overflow: hidden;
+  border-left: 4px solid #39b54a;
+}
+
+.default-theme-3 .pros-vl-right3 {
+  position: absolute;
+  bottom: 88px;
+  height: 100%;
+  margin-left: 97%;
+  border-left: 4px solid #39b54a;
+}
+
+.default-theme-3 .cons-card3::before {
+  /* border-top: 5px solid #39b54a; */
+  content: ""; /* This is necessary for the pseudo element to work. */
+  display: block; /* This will put the pseudo element on its own line. */
+  margin: 0 140px; /* This will center the border. */
+  width: 49.57%; /* Change this to whatever width you want. */
+  margin-top: 9px; /* This creates some space between the element and the border. */
+  border-top: 4px solid #ff0000; /* This creates the border. Replace black with whatever color you want. */
+}
+
+.default-theme-3 .cons-card3::after {
+  /* border-top: 5px solid #39b54a; */
+  content: ""; /* This is necessary for the pseudo element to work. */
+  display: block; /* This will put the pseudo element on its own line. */
+  margin: 0; /* This will center the border. */
+  width: 50%; /* Change this to whatever width you want. */
+  margin-bottom: 10px; /* This creates some space between the element and the border. */
+  margin-left: 9px;
+  border-bottom: 4px solid #ff0000; /* This creates the border. Replace black with whatever color you want. */
+}
+
+.default-theme-3 .cons-vl-left3 {
+  position: absolute;
+  top: 88px;
+  margin-left: 9px;
+  height: 100%;
+  overflow: hidden;
+  border-left: 4px solid #ff0000;
+}
+
+.default-theme-3 .cons-vl-right3 {
+  position: absolute;
+  bottom: 88px;
+  height: 100%;
+  margin-left: 97%;
+  border-left: 4px solid #ff0000;
+}
+
+.default-theme-3 .cons-header3 {
+  background-image: linear-gradient(to left, #ffffff, #ffffff) !important;
+  border-radius: 0 !important;
+  -webkit-border-radius: 0 !important;
+  -moz-border-radius: 0 !important;
+  border: none !important;
+  height: 100px !important;
+}
+
+.default-theme-3 .pros-heading3 {
+  font-size: 2em;
+  padding-top: 65px;
+  color: #39b54a;
+  text-decoration: underline;
+  font-weight: bold;
+  text-align: left;
+  margin-top: -22px;
+}
+
+.default-theme-3 .cons-heading3 {
+  font-size: 2em;
+  padding-top: 65px;
+  padding-left: 0px;
+  color: #ff0000;
+  text-decoration: underline;
+  font-weight: bold;
+  text-align: left;
+  margin-top: -22px;
+}
+
+.default-theme-3 .pros-lists3 {
+  margin-top: 10px;
+}
+
+.default-theme-3 .pros-lists3 ul {
+  list-style-type: none;
+  margin-bottom: 80px;
+  margin-left: 0;
+  text-indent: -5px;
+}
+
+.default-theme-3 .pros-lists3 ul > .pros-li3 > li {
+  margin-top: 5%;
+  margin-bottom: -5px;
+  margin-right: 10%;
+  padding-left: 2.3em;
+  font-size: 16px;
+}
+
+.default-theme-3 .pros-lists3 ul > .pros-li3 > li > i {
+  color: #39b54a;
+  position: absolute;
+  z-index: 5;
+  background: white;
+  margin-left: -20px !important;
+}
+
+.default-theme-3 .cons-lists3 {
+  margin-top: 10px;
+}
+
+.default-theme-3 .cons-lists3 ul {
+  list-style-type: none;
+  margin-bottom: 80px;
+  margin-left: 0;
+  text-indent: -5px;
+}
+
+.default-theme-3 .cons-lists3 ul > .cons-li3 > li {
+  margin-top: 5%;
+  margin-bottom: -4px;
+  margin-right: 10%;
+  padding-left: 2.3em;
+  font-size: 16px;
+}
+
+.default-theme-3 .cons-lists3 ul > .cons-li3 > li > i {
+  color: #ff0000;
+  position: absolute;
+  z-index: 5;
+  background: white;
+  margin-left: -20px !important;
+}
+
+.default-theme-3 ul.pros-ol3 > .pros-li3 > li:before {
+  /* lines */
+  content: "";
+  position: absolute;
+  top: 34px;
+  left: 14px; /* adjust manually */
+  border-left: 1px solid #39b54a;
+  height: 100%;
+  width: 1px;
+  overflow-y: hidden;
+  vertical-align: middle;
+}
+
+.default-theme-3 ul.cons-ol3 > .cons-li3 > li:before {
+  /* lines */
+  content: "";
+  position: absolute;
+  top: 34px;
+  left: 14px; /* adjust manually */
+  border-left: 1px solid #ff0000;
+  height: 100%;
+  width: 1px;
+  overflow-y: hidden;
+  vertical-align: middle;
+}
+
+/* custom theme 5 styles */
+.default-theme-4 .default-theme-4 {
+  font-family: "GothamBold";
+}
+
+.default-theme-4 .pros-card4 {
+  box-shadow: 1px 1px 4px grey !important;
+  border: none !important;
+  border-top-left-radius: 10px !important;
+  border-top-right-radius: 10px !important;
+}
+
+.default-theme-4 .cons-card4 {
+  box-shadow: 1px 1px 4px grey !important;
+  border: none !important;
+  border-top-left-radius: 10px !important;
+  border-top-right-radius: 10px !important;
+}
+
+.default-theme-4 .pros-header4 {
+  background-image: linear-gradient(to left, #39b54a, #39b54a) !important;
+  border-bottom: none !important;
+  border-top-left-radius: 10px !important;
+  border-top-right-radius: 10px !important;
+}
+
+.default-theme-4 .cons-header4 {
+  background-image: linear-gradient(to left, #ff0000, #ff0000) !important;
+  border-bottom: none !important;
+  border-top-left-radius: 10px !important;
+  border-top-right-radius: 10px !important;
+}
+
+.default-theme-4 .pros-heading4 {
+  font-size: 2em;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  color: #39b54a;
+  font-weight: bold;
+  text-align: center;
+  margin-top: -22px;
+}
+
+.default-theme-4 .pros-heading4-1 {
+  position: absolute;
+  top: 80px;
+  align-self: center;
+  color: #39b54a;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.default-theme-4 .cons-heading4-1 {
+  position: absolute;
+  top: 80px;
+  align-self: center;
+  color: #ff0000;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.default-theme-4 .cons-heading4 {
+  font-size: 2em;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  color: #ff0000;
+  font-weight: bold;
+  text-align: center;
+  margin-top: -22px;
+}
+
+.default-theme-4 .pros-circle-css4 {
+  position: absolute;
+  border-top-right-radius: 5%;
+  border-top-left-radius: 5%;
+  width: 220px;
+  height: 40px;
+  align-self: center;
+  margin-top: 29%;
+  background-color: #ffffff;
+}
+
+.default-theme-4 .cons-circle-css4 {
+  position: absolute;
+  border-top-right-radius: 5%;
+  border-top-left-radius: 5%;
+  width: 220px;
+  height: 40px;
+  align-self: center;
+  margin-top: 29%;
+  background-color: #ffffff;
+}
+
+.default-theme-4 .pros-icon4 {
+  position: absolute;
+  align-self: center;
+  margin-top: 0%;
+  color: #ffffff;
+  font-size: 3em;
+}
+
+.default-theme-4 .cons-icon4 {
+  position: absolute;
+  align-self: center;
+  margin-top: 0%;
+  color: #ffffff;
+  font-size: 3em;
+}
+
+.default-theme-5 .pros-lists4 {
+  margin-top: 20px;
+}
+
+.default-theme-4 .pros-lists4 ol {
+  list-style-type: none;
+  margin-bottom: 80px;
+  margin-top: 35px;
+}
+
+.default-theme-4 .pros-lists4 ul {
+  list-style-type: none;
+  margin-bottom: 80px;
+  margin-top: 35px;
+}
+
+.default-theme-4 .pros-lists4 ol > li {
+  border-bottom: 1px solid #000;
+  padding-bottom: 0px;
+  margin-top: 3%;
+  margin-right: 10%;
+  list-style: outside none none !important;
+  position: relative;
+}
+
+.default-theme-4 .pros-lists4 ul > li {
+  margin-bottom: 5%;
+  border-bottom: 1px solid #000;
+  padding-bottom: 0px;
+  margin-top: 5%;
+  margin-right: 7%;
+  padding-left: 4%;
+  list-style: outside none none !important;
+  position: relative;
+}
+
+.default-theme-4 .pros-lists4 ul > li > i {
+  display: inline !important;
+  position: absolute;
+  margin-left: -28px !important;
+}
+
+.default-theme-4 .cons-lists4 {
+  margin-top: 12px;
+}
+
+.default-theme-4 .cons-lists4 ol {
+  list-style-type: none;
+  margin-bottom: 80px;
+  margin-top: 35px;
+}
+
+.default-theme-4 .cons-lists4 ul {
+  list-style-type: none;
+  margin-bottom: 80px;
+  margin-top: 35px;
+}
+
+.default-theme-4 .cons-lists4 ol > li {
+  border-bottom: 1px solid #000;
+  padding-bottom: 0px;
+  margin-top: 3%;
+  margin-right: 10%;
+  list-style: outside none none !important;
+  position: relative;
+}
+.default-theme-4 .cons-lists4 ul > li {
+  margin-bottom: 5%;
+  border-bottom: 1px solid #000;
+  padding-bottom: 0px;
+  margin-top: 5%;
+  margin-right: 7%;
+  padding-left: 4%;
+  list-style: outside none none !important;
+  position: relative;
+}
+.default-theme-4 .cons-lists4 ul > li > i {
+  display: inline !important;
+  position: absolute;
+  margin-left: -28px !important;
+}
+
+.default-theme-4 .pros-lists4 ol > li > i {
+  display: inline !important;
+  position: absolute;
+  margin-left: -28px !important;
+}
+
+.default-theme-4 .cons-lists4 ol > li > i {
+  display: inline !important;
+  position: absolute;
+  margin-left: -28px !important;
+}
+/* custom theme 6 styles */
+
+.default-theme-5 .default-theme-5 {
+  font-family: "GothamBold";
+}
+
+.default-theme-5 .pros-card5 {
+  box-shadow: 1px 1px 4px grey !important;
+  border-radius: 17px !important;
+  height: 100% !important;
+}
+
+.default-theme-5 div.pros-header5 {
+  position: absolute;
+  border-radius: 20%;
+  text-align: center;
+  font-size: 2em;
+  top: 7%;
+  left: 16%;
+  width: 100% !important;
+  height: 80%;
+  background-color: var(--blue);
+  overflow: hidden;
+  padding: 2em !important;
+  background-image: linear-gradient(to left, #39b54a, #39b54a) !important;
+}
+.default-theme-5 div.pros-heading5 {
+  position: absolute;
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  top: 37%;
+  right: 55%;
+  color: white;
+}
+
+.default-theme-5 div.cons-header5 {
+  position: absolute;
+  border-radius: 20%;
+  text-align: center;
+  font-size: 2em;
+  top: 7% !important;
+  left: 16%;
+  width: 100% !important;
+  height: 80%;
+  overflow: hidden;
+  padding: 2em !important;
+  background-image: linear-gradient(to left, #f00000, #f00000) !important;
+}
+.default-theme-5 div.cons-heading5 {
+  position: absolute;
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  top: 37%;
+  right: 55%;
+  color: white;
+}
+
+.default-theme-5 .cons-card5 {
+  box-shadow: 1px 1px 4px grey !important;
+  border-radius: 17px !important;
+  height: 100% !important;
+}
+
+.default-theme-5 .pros-icon5 {
+  position: absolute;
+  align-self: center;
+  margin-top: 22%;
+
+  color: #39b54a;
+  text-shadow: 2px 2px 6px #000000;
+  font-size: xx-large;
+}
+
+.default-theme-5 .cons-icon5 {
+  position: absolute;
+  align-self: center;
+  margin-top: 22%;
+  color: #ff0000;
+  text-shadow: 2px 2px 6px #000000;
+  font-size: xx-large;
+}
+
+.default-theme-5 .pros-lists5 {
+  margin-top: 20px;
+}
+
+.default-theme-5 .pros-lists5 ol {
+  list-style-type: none;
+  margin-bottom: 80px;
+  margin-top: 80px;
+  font-size: 17px;
+}
+
+.default-theme-5 .pros-lists5 ul {
+  list-style-type: none;
+  margin-right: 10px;
+  margin-bottom: 80px;
+  margin-top: 80px;
+  font-size: 17px;
+}
+
+.default-theme-5 .pros-lists5 ul > li > i {
+  position: absolute;
+  margin-left: -20px !important;
+}
+
+.default-theme-5 .cons-lists5 ul > li > i {
+  position: absolute;
+  margin-left: -20px !important;
+}
+
+.default-theme-5 .cons-lists5 {
+  margin-top: 20px;
+}
+
+.default-theme-5 .cons-lists5 ul {
+  list-style-type: none;
+  margin-right: 10px;
+  margin-bottom: 80px;
+  margin-top: 80px;
+  font-size: 17px;
+}
+
+@media (max-width: 768px) {
+  .entry-content
+    > .default-theme-1:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.is-style-wide) {
+    max-width: 100% !important;
+  }
+  .entry-content
+    > .default-theme-2:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.is-style-wide) {
+    max-width: 100% !important;
+  }
+  .entry-content
+    > .default-theme-3:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.is-style-wide) {
+    max-width: 100% !important;
+  }
+  .default-theme-4 .pros-circle-css4 {
+    margin-top: 20%;
+  }
+  .default-theme-4 .cons-circle-css4 {
+    margin-top: 20%;
+  }
+  .col-md-6,
+  .col-md-7,
+  .col-md-8,
+  .col-md-9,
+  .col-md-auto,
+  .col-sm,
+  .col-sm-1,
+  .col-sm-10,
+  .col-sm-11,
+  .col-sm-12 {
+    margin-bottom: 30px;
+  }
+  .default-theme-5 div.pros-heading5 {
+    position: absolute;
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    top: 37%;
+    right: 60%;
+    color: white;
+  }
+
+  .default-theme-5 div.pros-header5 {
+    position: absolute;
+    border-radius: 20%;
+    text-align: center;
+    font-size: 2em;
+    top: 9%;
+    left: 0%;
+    width: 100% !important;
+    height: 80%;
+    background-color: var(--blue);
+    /* -ms-transform: rotate(-90deg); 
+    transform: rotate(-90deg); */
+    overflow: hidden;
+    padding: 2em !important;
+    background-image: linear-gradient(to left, #39b54a, #39b54a) !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .default-theme-5 div.pros-heading5 {
+    position: absolute;
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    top: 40%;
+    right: 60%;
+    color: white;
+  }
+  .default-theme-5 div.pros-header5 {
+    position: absolute;
+    border-radius: 20%;
+    text-align: center;
+    font-size: 2em;
+    top: 9%;
+    right: 30%;
+    width: 100% !important;
+    height: 80%;
+    /* -ms-transform: rotate(-90deg); 
+    transform: rotate(-90deg); */
+    overflow: hidden;
+    padding: 2em !important;
+    background-image: linear-gradient(to left, #39b54a, #39b54a) !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .default-theme-3 .cons-card3::before {
+    width: 49.3%;
+  }
+
+  .default-theme-3 .pros-card3::before {
+    width: 49.3%;
+  }
+  .default-theme-5 div.cons-heading5 {
+    position: absolute;
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    top: 37%;
+    right: 60%;
+    color: white;
+  }
+  .default-theme-5 div.cons-header5 {
+    position: absolute;
+    border-radius: 20%;
+    text-align: center;
+    font-size: 2em;
+    top: 7%;
+    left: 0%;
+    width: 100% !important;
+    height: 80%;
+    background-color: var(--blue);
+    /* -ms-transform: rotate(-90deg); 
+    transform: rotate(-90deg); */
+    overflow: hidden;
+    padding: 2em !important;
+    background-image: linear-gradient(to left, #f00000, #f00000) !important;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .default-theme-5 div.cons-heading5 {
+    position: absolute;
+    top: 30%;
+    right: 75%;
+    color: white;
+  }
+  .default-theme-5 div.cons-header5 {
+    position: absolute;
+    margin-top: 30%;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 2em;
+    top: 7% !important;
+    left: -20%;
+    right: -100%;
+    width: 100% !important;
+    height: 100% !important;
+    overflow: hidden;
+    padding: 2em !important;
+    background-image: linear-gradient(to left, #f00000, #f00000) !important;
+  }
+
+  .default-theme-5 div.pros-heading5 {
+    position: absolute;
+    top: 30%;
+    right: 75%;
+    color: white;
+  }
+  .default-theme-5 div.pros-header5 {
+    position: absolute;
+    margin-top: 30%;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 2em;
+    top: 7% !important;
+    left: -20%;
+    right: 100%;
+    width: 100% !important;
+    height: 100% !important;
+    overflow: hidden;
+    padding: 2em !important;
+    background-image: linear-gradient(to left, #39b54a, #39b54a) !important;
+  }
+}
