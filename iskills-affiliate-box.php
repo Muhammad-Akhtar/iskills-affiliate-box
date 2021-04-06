@@ -7,7 +7,7 @@
  * Author: Hafiz Siddiq
  * Author URI: https://github.com/hafizSiddiq7675
  * Text Domain: iskills-pros-and-cons
- * Version: 2.0.0
+ * Version: 1.0.0
  * License: GPLv3
  * License URI: http://www.gnu.org/licenses/gpl-3.0.html
  */
@@ -19,16 +19,16 @@ if (!defined('ABSPATH')) {
 
 // require 'plugin-update-checker/plugin-update-checker.php';
 // $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
-// 	'https://github.com/user-name/repo-name/',
-// 	__FILE__,
-// 	'iskills-affiliate-box'
+//     'https://github.com/Muhammad-Akhtar/iskills-affiliate-box/',
+//     __FILE__,
+//     'iskills-affiliate-box'
 // );
 
 // //Set the branch that contains the stable release.
-// $myUpdateChecker->setBranch('stable-branch-name');
+// $myUpdateChecker->setBranch('main');
 
 // //Optional: If you're using a private repository, specify the access token like this:
-// $myUpdateChecker->setAuthentication('your-token-here');
+// $myUpdateChecker->setAuthentication('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');
 
 
 
